@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on 航海家的摇篮 | 轮机工程学院</title>
+    <link>https://jmuer.top/posts/</link>
+    <description>Recent content in Posts on 航海家的摇篮 | 轮机工程学院</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 13 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jmuer.top/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>学院巡礼：集美大学轮机工程学院</title>
+      <link>https://jmuer.top/posts/mec-bento/</link>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://jmuer.top/posts/mec-bento/</guid>
+      <description>&lt;link rel=&#34;preconnect&#34; href=&#34;https://fonts.googleapis.com&#34;&gt;
+&lt;link href=&#34;https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Lora:ital,wght@0,700;1,400;1,600&amp;display=swap&#34; rel=&#34;stylesheet&#34;&gt;
+&lt;style&gt;
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   BENTO · NOTION STYLE
+   暖白简约 · 轮机工程学院
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+
+.nb-wrap {
+  font-family: &#39;Plus Jakarta Sans&#39;, sans-serif;
+  background: #fafaf9;
+  border-radius: 16px;
+  padding: 28px;
+  margin: 28px 0;
+}
+
+/* ── Grid ── */
+.nb-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+
+/* ── 通用卡片 ── */
+.nb-card {
+  background: #ffffff;
+  border: 1px solid #e9e9e7;
+  border-radius: 12px;
+  padding: 22px 24px;
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow 0.22s ease, background 0.22s ease, transform 0.22s ease;
+}
+.nb-card:hover {
+  box-shadow: 0 6px 24px rgba(0,0,0,0.07), 0 1px 4px rgba(0,0,0,0.04);
+  background: #fafaf9;
+  transform: translateY(-2px);
+}
+
+/* ── 标签文字 ── */
+.nb-eyebrow {
+  font-size: 0.68em;
+  font-weight: 600;
+  color: #aeaca8;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+/* ── 卡片标题 ── */
+.nb-heading {
+  font-size: 1.05em;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 14px;
+  line-height: 1.3;
+}
+
+/* ━━ 英雄卡：跨 4 列 ━━ */
+.nb-hero {
+  grid-column: span 4;
+  background: #f7f6f3;
+  border-color: #e4e3df;
+  padding: 32px 36px;
+}
+
+.hero-label {
+  font-size: 0.7em;
+  font-weight: 600;
+  color: #aeaca8;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.hero-label::before {
+  content: &#39;&#39;;
+  width: 18px;
+  height: 1.5px;
+  background: #cfcdc9;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.hero-title {
+  font-family: &#39;Lora&#39;, serif;
+  font-size: 2.4em;
+  font-weight: 700;
+  color: #1a1a1a;
+  line-height: 1.2;
+  margin-bottom: 6px;
+  letter-spacing: -0.5px;
+}
+
+.hero-title em {
+  font-style: italic;
+  font-weight: 400;
+  color: #555452;
+}
+
+.hero-sub {
+  font-size: 0.82em;
+  color: #aeaca8;
+  letter-spacing: 0.5px;
+  margin-bottom: 18px;
+  font-weight: 500;
+}
+
+.hero-divider {
+  height: 1px;
+  background: #e4e3df;
+  margin: 18px 0;
+}
+
+.hero-body {
+  font-size: 0.92em;
+  color: #555452;
+  line-height: 1.85;
+  max-width: 500px;
+}
+.hero-body strong {
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+/* ━━ 年份卡：跨 2 列 ━━ */
+.nb-year {
+  grid-column: span 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #1a1a1a;
+  border-color: #1a1a1a;
+}
+.nb-year:hover {
+  background: #2a2a2a;
+}
+
+.year-eyebrow {
+  font-size: 0.66em;
+  font-weight: 600;
+  color: #787774;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+.year-num {
+  font-family: &#39;Lora&#39;, serif;
+  font-size: 3.8em;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1;
+  letter-spacing: -2px;
+}
+
+.year-label {
+  font-size: 0.8em;
+  color: #787774;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.year-dot {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+  margin-bottom: 14px;
+}
+
+/* ━━ 专业卡：跨 3 列 ━━ */
+.nb-prog {
+  grid-column: span 3;
+}
+
+.prog-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.prog-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid #f1f0ee;
+  font-size: 0.88em;
+  color: #37352f;
+  font-weight: 500;
+}
+.prog-item:last-child { border-bottom: none; }
+
+.prog-idx {
+  font-size: 0.72em;
+  color: #cfcdc9;
+  font-weight: 600;
+  min-width: 20px;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.5px;
+}
+
+.prog-badge {
+  margin-left: auto;
+  background: #f1f0ee;
+  color: #787774;
+  font-size: 0.72em;
+  font-weight: 600;
+  padding: 3px 9px;
+  border-radius: 5px;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+}
+.prog-badge.hot {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+/* ━━ 统计徽章卡：跨 1 列 ━━ */
+.nb-stat {
+  grid-column: span 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-height: 140px;
+}
+
+.stat-num {
+  font-family: &#39;Lora&#39;, serif;
+  font-size: 2.6em;
+  font-weight: 700;
+  color: #1a1a1a;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+.stat-num sup {
+  font-size: 0.38em;
+  color: #aeaca8;
+  vertical-align: super;
+  letter-spacing: 0;
+  font-family: &#39;Plus Jakarta Sans&#39;, sans-serif;
+  font-weight: 600;
+}
+
+.stat-label {
+  font-size: 0.78em;
+  color: #aeaca8;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+/* ━━ 历史时间轴：跨 2 列 ━━ */
+.nb-hist {
+  grid-column: span 2;
+}
+
+.tl-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 4px;
+}
+
+.tl-item {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.tl-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #cfcdc9;
+  margin-top: 5px;
+  flex-shrink: 0;
+}
+.tl-dot.now {
+  background: #1a1a1a;
+  box-shadow: 0 0 0 3px rgba(26,26,26,0.08);
+}
+
+.tl-body {}
+
+.tl-year {
+  font-size: 0.7em;
+  font-weight: 700;
+  color: #aeaca8;
+  letter-spacing: 0.5px;
+  margin-bottom: 2px;
+}
+
+.tl-text {
+  font-size: 0.84em;
+  color: #555452;
+  line-height: 1.65;
+}
+
+/* ━━ 荣誉卡：跨 4 列 ━━ */
+.nb-honor {
+  grid-column: span 4;
+}
+
+.honor-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.honor-item {
+  background: #fafaf9;
+  border: 1px solid #f1f0ee;
+  border-radius: 10px;
+  padding: 14px 16px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  transition: background 0.2s ease;
+}
+.honor-item:hover {
+  background: #f7f6f3;
+}
+
+.honor-icon {
+  font-size: 1.15em;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.honor-text {}
+
+.honor-title {
+  font-size: 0.85em;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 3px;
+}
+
+.honor-desc {
+  font-size: 0.8em;
+  color: #787774;
+  line-height: 1.55;
+}
+
+/* ━━ 标签云：跨 2 列 ━━ */
+.nb-tags {
+  grid-column: span 2;
+}
+
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 4px;
+}
+
+.nb-tag {
+  background: #f1f0ee;
+  color: #555452;
+  font-size: 0.8em;
+  font-weight: 600;
+  padding: 5px 12px;
+  border-radius: 6px;
+  letter-spacing: 0.2px;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.nb-tag:hover {
+  background: #e9e9e7;
+  color: #1a1a1a;
+}
+.nb-tag.key {
+  background: #1a1a1a;
+  color: #ffffff;
+}
+
+/* ━━ 金句横幅：跨 6 列 ━━ */
+.nb-quote {
+  grid-column: span 6;
+  background: #f7f6f3;
+  border-color: #e4e3df;
+  padding: 28px 36px;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.quote-rule {
+  width: 3px;
+  min-height: 60px;
+  background: #e4e3df;
+  border-radius: 2px;
+  flex-shrink: 0;
+  align-self: stretch;
+}
+
+.quote-inner {}
+
+.quote-text {
+  font-family: &#39;Lora&#39;, serif;
+  font-style: italic;
+  font-size: 1.1em;
+  color: #37352f;
+  line-height: 1.9;
+}
+.quote-text strong {
+  font-style: normal;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.quote-source {
+  font-size: 0.72em;
+  font-weight: 600;
+  color: #cfcdc9;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-top: 12px;
+}
+
+/* ━━ 响应式 ━━ */
+@media (max-width: 720px) {
+  .nb-grid { grid-template-columns: repeat(2, 1fr); }
+  .nb-hero, .nb-honor, .nb-quote { grid-column: span 2; }
+  .nb-year, .nb-prog, .nb-hist, .nb-tags { grid-column: span 2; }
+  .nb-stat { grid-column: span 1; }
+  .hero-title { font-size: 1.8em; }
+}
+
+@media (max-width: 480px) {
+  .nb-grid { grid-template-columns: 1fr; }
+  .nb-hero, .nb-year, .nb-prog, .nb-stat, .nb-hist,
+  .nb-honor, .nb-tags, .nb-quote { grid-column: span 1; }
+  .nb-wrap { padding: 14px; }
+  .honor-grid { grid-template-columns: 1fr; }
+}
+&lt;/style&gt;
+&lt;div class=&#34;nb-wrap&#34;&gt;
+&lt;div class=&#34;nb-grid&#34;&gt;
+  &lt;!-- ━━ 英雄卡 ━━ --&gt;
+  &lt;div class=&#34;nb-card nb-hero&#34;&gt;
+    &lt;div class=&#34;hero-label&#34;&gt;MARINE ENGINEERING COLLEGE · JMU&lt;/div&gt;
+    &lt;div class=&#34;hero-title&#34;&gt;诚毅铸魂，&lt;em&gt;走向深蓝&lt;/em&gt;&lt;/div&gt;
+    &lt;div class=&#34;hero-sub&#34;&gt;集美大学 · 轮机工程学院&lt;/div&gt;
+    &lt;div class=&#34;hero-divider&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;hero-body&#34;&gt;
+      &lt;strong&gt;集美大学轮机工程学院&lt;/strong&gt;是集美大学办学历史最悠久、最具航海特色的王牌学院。前身可追溯至爱国侨领&lt;strong&gt;陈嘉庚先生&lt;/strong&gt;于 1920 年创办的集美学校水产科，百年底蕴深厚，在业内享有「&lt;strong&gt;航海家的摇篮&lt;/strong&gt;」之美誉，轮机工程与船舶海洋工程等核心专业享有极高的学术水平与行业认可度。
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- ━━ 年份卡 ━━ --&gt;
+  &lt;div class=&#34;nb-card nb-year&#34;&gt;
+    &lt;div&gt;
+      &lt;div class=&#34;year-dot&#34;&gt;⚓&lt;/div&gt;
+      &lt;div class=&#34;year-eyebrow&#34;&gt;FOUNDED&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+      &lt;div class=&#34;year-num&#34;&gt;1920&lt;/div&gt;
+      &lt;div class=&#34;year-label&#34;&gt;立院元年&lt;br&gt;陈嘉庚创办&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- ━━ 核心专业 ━━ --&gt;
+  &lt;div class=&#34;nb-card nb-prog&#34;&gt;
+    &lt;div class=&#34;nb-eyebrow&#34;&gt;核心专业&lt;/div&gt;
+    &lt;div class=&#34;nb-heading&#34;&gt;教学体系&lt;/div&gt;
+    &lt;ul class=&#34;prog-list&#34;&gt;
+      &lt;li class=&#34;prog-item&#34;&gt;&lt;span class=&#34;prog-idx&#34;&gt;01&lt;/span&gt;轮机工程&lt;span class=&#34;prog-badge hot&#34;&gt;国家级特色&lt;/span&gt;&lt;/li&gt;
+      &lt;li class=&#34;prog-item&#34;&gt;&lt;span class=&#34;prog-idx&#34;&gt;02&lt;/span&gt;船舶与海洋工程&lt;span class=&#34;prog-badge hot&#34;&gt;省级重点&lt;/span&gt;&lt;/li&gt;
+      &lt;li class=&#34;prog-item&#34;&gt;&lt;span class=&#34;prog-idx&#34;&gt;03&lt;/span&gt;能源与动力工程&lt;span class=&#34;prog-badge&#34;&gt;本科&lt;/span&gt;&lt;/li&gt;
+      &lt;li class=&#34;prog-item&#34;&gt;&lt;span class=&#34;prog-idx&#34;&gt;04&lt;/span&gt;电气工程及其自动化&lt;span class=&#34;prog-badge&#34;&gt;本科&lt;/span&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;!-- ━━ 统计卡 × 3 ━━ --&gt;
+  &lt;div class=&#34;nb-card nb-stat&#34;&gt;
+    &lt;div class=&#34;nb-eyebrow&#34;&gt;办学年限&lt;/div&gt;
+    &lt;div class=&#34;stat-num&#34;&gt;100&lt;sup&gt;+&lt;/sup&gt;&lt;/div&gt;
+    &lt;div class=&#34;stat-label&#34;&gt;百年薪火&lt;br&gt;薪传不息&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;nb-card nb-stat&#34;&gt;
+    &lt;div class=&#34;nb-eyebrow&#34;&gt;管理风格&lt;/div&gt;
+    &lt;div style=&#34;font-family:&#39;Lora&#39;,serif;font-size:1.5em;font-weight:700;color:#1a1a1a;line-height:1.2;letter-spacing:-0.5px;&#34;&gt;半军事&lt;br&gt;化管理&lt;/div&gt;
+    &lt;div class=&#34;stat-label&#34;&gt;严谨作风&lt;br&gt;令行禁止&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;nb-card nb-stat&#34;&gt;
+    &lt;div class=&#34;nb-eyebrow&#34;&gt;行业地位&lt;/div&gt;
+    &lt;div style=&#34;font-family:&#39;Lora&#39;,serif;font-size:1.5em;font-weight:700;color:#1a1a1a;line-height:1.2;letter-spacing:-0.5px;&#34;&gt;远洋&lt;br&gt;中流&lt;/div&gt;
+    &lt;div class=&#34;stat-label&#34;&gt;广布船队&lt;br&gt;砥柱栋梁&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- ━━ 历史沿革 ━━ --&gt;
+  &lt;div class=&#34;nb-card nb-hist&#34;&gt;
+    &lt;div class=&#34;nb-eyebrow&#34;&gt;历史沿革&lt;/div&gt;
+    &lt;div class=&#34;nb-heading&#34;&gt;百年薪火&lt;/div&gt;
+    &lt;div class=&#34;tl-wrap&#34;&gt;
+      &lt;div class=&#34;tl-item&#34;&gt;
+        &lt;div class=&#34;tl-dot&#34;&gt;&lt;/div&gt;
+        &lt;div class=&#34;tl-body&#34;&gt;
+          &lt;div class=&#34;tl-year&#34;&gt;1920&lt;/div&gt;
+          &lt;div class=&#34;tl-text&#34;&gt;陈嘉庚先生创办集美学校水产科，播下海洋工程教育的火种&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;tl-item&#34;&gt;
+        &lt;div class=&#34;tl-dot&#34;&gt;&lt;/div&gt;
+        &lt;div class=&#34;tl-body&#34;&gt;
+          &lt;div class=&#34;tl-year&#34;&gt;建国后&lt;/div&gt;
+          &lt;div class=&#34;tl-text&#34;&gt;院系历经调整，轮机工程专业持续发展壮大，成为行业输送重要力量&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;tl-item&#34;&gt;
+        &lt;div class=&#34;tl-dot now&#34;&gt;&lt;/div&gt;
+        &lt;div class=&#34;tl-body&#34;&gt;
+          &lt;div class=&#34;tl-year&#34;&gt;当代&lt;/div&gt;
+          &lt;div class=&#34;tl-text&#34;&gt;拥有完整本硕博培养体系，深度对接绿色航运与数字化转型前沿&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- ━━ 荣誉成就 ━━ --&gt;
+  &lt;div class=&#34;nb-card nb-honor&#34;&gt;
+    &lt;div class=&#34;nb-eyebrow&#34;&gt;学院荣誉&lt;/div&gt;
+    &lt;div class=&#34;nb-heading&#34;&gt;硬核实力&lt;/div&gt;
+    &lt;div class=&#34;honor-grid&#34;&gt;
+      &lt;div class=&#34;honor-item&#34;&gt;
+        &lt;div class=&#34;honor-icon&#34;&gt;🏆&lt;/div&gt;
+        &lt;div class=&#34;honor-text&#34;&gt;
+          &lt;div class=&#34;honor-title&#34;&gt;现代化模拟舱&lt;/div&gt;
+          &lt;div class=&#34;honor-desc&#34;&gt;完备的大型航海模拟实训中心，全真还原海上作业场景&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;honor-item&#34;&gt;
+        &lt;div class=&#34;honor-icon&#34;&gt;⚙️&lt;/div&gt;
+        &lt;div class=&#34;honor-text&#34;&gt;
+          &lt;div class=&#34;honor-title&#34;&gt;半军事化管理&lt;/div&gt;
+          &lt;div class=&#34;honor-desc&#34;&gt;严谨作风传统，培养精工细作、令行禁止的工程师素质&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;honor-item&#34;&gt;
+        &lt;div class=&#34;honor-icon&#34;&gt;🌊&lt;/div&gt;
+        &lt;div class=&#34;honor-text&#34;&gt;
+          &lt;div class=&#34;honor-title&#34;&gt;行业认可度&lt;/div&gt;
+          &lt;div class=&#34;honor-desc&#34;&gt;毕业生广布远洋船队，是中国远洋航运的中流砥柱&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;honor-item&#34;&gt;
+        &lt;div class=&#34;honor-icon&#34;&gt;🔬&lt;/div&gt;
+        &lt;div class=&#34;honor-text&#34;&gt;
+          &lt;div class=&#34;honor-title&#34;&gt;科研协同&lt;/div&gt;
+          &lt;div class=&#34;honor-desc&#34;&gt;深度对接航运数字化转型与绿色海洋工程前沿领域&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- ━━ 标签云 ━━ --&gt;
+  &lt;div class=&#34;nb-card nb-tags&#34;&gt;
+    &lt;div class=&#34;nb-eyebrow&#34;&gt;关键词&lt;/div&gt;
+    &lt;div class=&#34;nb-heading&#34;&gt;学院画像&lt;/div&gt;
+    &lt;div class=&#34;tag-cloud&#34;&gt;
+      &lt;span class=&#34;nb-tag key&#34;&gt;百年学府&lt;/span&gt;
+      &lt;span class=&#34;nb-tag key&#34;&gt;航海家摇篮&lt;/span&gt;
+      &lt;span class=&#34;nb-tag&#34;&gt;半军事化管理&lt;/span&gt;
+      &lt;span class=&#34;nb-tag&#34;&gt;陈嘉庚精神&lt;/span&gt;
+      &lt;span class=&#34;nb-tag&#34;&gt;远洋船队&lt;/span&gt;
+      &lt;span class=&#34;nb-tag&#34;&gt;绿色航运&lt;/span&gt;
+      &lt;span class=&#34;nb-tag&#34;&gt;数字化转型&lt;/span&gt;
+      &lt;span class=&#34;nb-tag&#34;&gt;海洋工程&lt;/span&gt;
+      &lt;span class=&#34;nb-tag&#34;&gt;诚毅校训&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- ━━ 金句横幅 ━━ --&gt;
+  &lt;div class=&#34;nb-card nb-quote&#34;&gt;
+    &lt;div class=&#34;quote-rule&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;quote-inner&#34;&gt;
+      &lt;div class=&#34;quote-text&#34;&gt;
+        无论是深耕&lt;strong&gt;海工制造&lt;/strong&gt;，还是探索&lt;strong&gt;航运数字化转型&lt;/strong&gt;，这里都是青年工程师乘风破浪的起点——以百年诚毅之魂，铸就驶向深蓝的脊梁。
+      &lt;/div&gt;
+      &lt;div class=&#34;quote-source&#34;&gt;Marine Engineering College · Jimei University · Est. 1920&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>
